@@ -1,0 +1,124 @@
+body{
+    margin: 0;
+    background: linear-gradient(to top right, rgb(82, 41, 112),rgb(172, 22, 109));
+    width: 100%;
+    height: 100vh;
+    border: double;
+    
+}
+
+
+.container {
+    margin: 0;
+
+}
+.container img{
+    position: absolute;
+    width: 700px;
+    height: 550px;
+    right: 13%;
+    top: 18%;
+    box-sizing: border-box;
+    border-radius: 3px 3px 3px 3px;
+    box-shadow: 2px 2px 2px 2px  rgba(0, 0, 0, 0.575) ;
+    
+   } 
+.context{
+    margin: 0;
+} 
+.context form{
+    background-color: azure;
+    position: absolute;
+    width: 450px;
+    height: 552px;
+    top: 18%;
+    left: 15%;
+    border-radius: 5px 5px;
+    box-shadow:rgba(0, 0, 0, 0.568) 5px 5px;
+}  
+.context form h2{
+    margin-top: 40px;
+    text-align: center;
+    font-size: 22px;
+    font-family:  sans-serif;
+    cursor: grabbing;
+}
+.context form input {
+    position: relative;
+    top: 15%;
+    left: 15%;
+    right: 10%;
+    padding: 10px;
+    padding-right: 103px;
+    background-color: rgb(230, 225, 225);
+    border-radius: 15px 15px;
+    box-sizing: border-box;
+    border: transparent;
+    color: black;
+    text-align: left;
+    margin: 5px;
+    
+
+
+}
+.context form .submit .button{
+    position: absolute;
+    top: 53%;
+    left: 36%;
+    text-align: justify;
+    padding: 10px 30px;
+    font-size: 15px;
+    border: none;
+    background-color: rgb(177, 49, 2);
+    color: white;
+    border-radius: 5px 5px;
+    font-family: sans-serif;
+    cursor: pointer;
+}
+.context form h3{
+    position:absolute;
+    text-align: center;
+    font-size: 15px;
+    top: 80%;
+    left: 20%;
+    opacity: 0.7;
+    cursor: pointer;
+
+}
+.context form h3:hover{
+    color: none;
+
+}
+.context form  a{
+    display: flex;
+    color: blue;
+    font-size: 15px;
+    text-align: end;
+}
+
+@media screen and (max-width:600px){
+    body{
+        width: 100%;
+    }
+    .container img{
+        width: 200px;
+        height: 100px;
+        display: flex;
+    }
+    .container form{
+        width: 300px;
+        height: 200px;
+    }
+}
+@media screen and (max-width:992px){
+    body{
+        width: 100%;
+    }
+    .container img{
+        width: 200px;
+        height: 100px;
+        display: auto;
+    }
+}
+
+        
